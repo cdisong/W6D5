@@ -1,0 +1,54 @@
+body {
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: space-around;
+}
+#root {
+  position: absolute;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+.clock {
+  background-color: green;
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.tabs {
+  width: 400px;  
+  background-color: orange;
+  color: green;
+  border: 5px dashed purple;
+}
+
+.tabs ul {
+  margin: 0px;
+  padding: 0 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tabs li{
+  padding: 0px;
+  margin: 0px;
+  border-right: 1px solid black;
+}
+
+.tabs h1 {
+  border-bottom: 5px solid black;    
+}
+
+.tabs article {
+  text-align: center;
+  font-size: 30px;
+}
+
+.clicked-tab {
+  border-bottom: none;
+  background-color: blue;
+}
